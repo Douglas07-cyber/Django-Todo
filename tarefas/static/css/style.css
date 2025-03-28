@@ -6,7 +6,7 @@ body{
 /*NAVBAR*/
 .navbar{
     background-color: rgb(236, 11, 11) !important;
-    border-bottom: 1px solid black !important;
+    border-bottom: 1px solid rgb(223, 247, 9) !important;
 }
 
 .navbar-nav{
@@ -19,15 +19,67 @@ body{
 }
 
 .nav-link{
-    color: white !important;
+    color: rgb(10, 9, 9) !important;
     font-size: 1.5em !important;
     letter-spacing: 2px !important;
 }
 
+/*Botão Adcionar*/
+
+.add-div{
+    background-color: aqua !important;
+    color: rgb(8, 8, 8) !important;
+    padding: 0.5em !important;
+    border-radius: 5px !important;
+}
+
+#add-button{
+    text-decoration: none !important;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+/*Main*/
+
+.list-div{
+    margin-left: 10% !important;
+    margin-right: 10% !important;
+}
+
+.barra{
+    margin-top: 2em !important;
+}
+
+.input-group-btn{
+    border: 1px solid rgba(0,0,0,0.206) !important;
+    border-radius: 5px !important;
+}
+
+/*Lista*/
+
+.item{
+    border-bottom: 1px dotted black !important;
+    height: 3em !important;
+    font-size: 2em !important;
+    margin-top: 1em !important;
+}
+
+.fa.fa-trash{
+    color: red !important;
+}
+
+.fa.fa.edit{
+    color: green !important;
+}
+
+.icones{
+    text-align: end !important;
+}
+
 footer{
-    background-color: rgb(255, 0, 0) !important;
-    border-top: 2px solid black !important;
-    color: black !important;
+    background-color: rgb(238, 5, 17) !important;
+    border-top: 2px solid rgb(12, 240, 172) !important;
+    color: rgb(17, 16, 16) !important;
     display: flex !important;
     align-items: center !important;
     justify-content: center !important;
