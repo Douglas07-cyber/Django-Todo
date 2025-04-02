@@ -3,10 +3,10 @@ body{
     padding: 0 !important;
 }
 
-/*NAVBAR*/
+/* NAVBAR*/
 .navbar{
-    background-color: rgb(236, 11, 11) !important;
-    border-bottom: 1px solid rgb(223, 247, 9) !important;
+    background-color: #f00c0c!important;
+    border-bottom: 1px solid rgb(194, 230, 36) !important;
 }
 
 .navbar-nav{
@@ -19,16 +19,16 @@ body{
 }
 
 .nav-link{
-    color: rgb(10, 9, 9) !important;
+    color: white !important;
     font-size: 1.5em !important;
     letter-spacing: 2px !important;
 }
 
-/*Botão Adcionar*/
+/*Botão Adicionar*/
 
 .add-div{
-    background-color: aqua !important;
-    color: rgb(8, 8, 8) !important;
+    background-color: rgb(6, 172, 238) !important;
+    color: white !important;
     padding: 0.5em !important;
     border-radius: 5px !important;
 }
@@ -40,18 +40,17 @@ body{
 }
 
 /*Main*/
-
 .list-div{
     margin-left: 10% !important;
     margin-right: 10% !important;
 }
 
 .barra{
-    margin-top: 2em !important;
+    margin-top: 1em !important;
 }
 
 .input-group-btn{
-    border: 1px solid rgba(0,0,0,0.206) !important;
+    border: 1px solid rgba(0, 0, 0, 0.206) !important;
     border-radius: 5px !important;
 }
 
@@ -67,8 +66,7 @@ body{
 .fa.fa-trash{
     color: red !important;
 }
-
-.fa.fa.edit{
+.fa.fa-edit{
     color: green !important;
 }
 
@@ -76,10 +74,14 @@ body{
     text-align: end !important;
 }
 
+.link{
+    text-decoration: none !important;
+}
+
 footer{
-    background-color: rgb(238, 5, 17) !important;
-    border-top: 2px solid rgb(12, 240, 172) !important;
-    color: rgb(17, 16, 16) !important;
+    background-color: #f30808 !important;
+    border-top: 2px solid rgb(250, 6, 6) !important;
+    color: rgb(17, 17, 17) !important;
     display: flex !important;
     align-items: center !important;
     justify-content: center !important;
